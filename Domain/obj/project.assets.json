@@ -3516,11 +3516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj",
+      "projectUniqueName": "D:\\Projects\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj",
+      "projectPath": "D:\\Projects\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\ezzat\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Domain\\obj\\",
+      "outputPath": "D:\\Projects\\CRUDOperationsTask\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ezzat\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -12,3 +12,17 @@ D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Domain\obj\Debug\net6.0\Applic
 D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Domain\obj\Debug\net6.0\ref\ApplicationCore.dll
 D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Domain\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
 D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+D:\Projects\CRUDOperationsTask\Domain\bin\Debug\net6.0\ApplicationCore.deps.json
+D:\Projects\CRUDOperationsTask\Domain\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+D:\Projects\CRUDOperationsTask\Domain\bin\Debug\net6.0\ApplicationCore.dll
+D:\Projects\CRUDOperationsTask\Domain\bin\Debug\net6.0\ApplicationCore.pdb
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.dll
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\refint\ApplicationCore.dll
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.pdb
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+D:\Projects\CRUDOperationsTask\Domain\obj\Debug\net6.0\ref\ApplicationCore.dll

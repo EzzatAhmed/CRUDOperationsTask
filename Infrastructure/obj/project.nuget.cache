@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LN/1l/fCLFzF+9HKt6nywTSCJXk/LgpnXTam4v60RzdAubBEEPpC1k2pxgS1A80igxbKcKcG6CufC9u7ybOvRQ==",
+  "dgSpecHash": "COLQpVp4azJp1ahA7JC5voELeeffaz34Tf+iwV5uINJDYl56Mmd8XduhE1AzxzoCOPfVrsEEsxFZHzp35S/+tw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Infrastructure\\ApplicationInfrastructure.csproj",
+  "projectFilePath": "D:\\Projects\\CRUDOperationsTask\\Infrastructure\\ApplicationInfrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ezzat\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ezzat\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

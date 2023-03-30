@@ -3537,11 +3537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Infrastructure\\ApplicationInfrastructure.csproj",
+      "projectUniqueName": "D:\\Projects\\CRUDOperationsTask\\Infrastructure\\ApplicationInfrastructure.csproj",
       "projectName": "ApplicationInfrastructure",
-      "projectPath": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Infrastructure\\ApplicationInfrastructure.csproj",
+      "projectPath": "D:\\Projects\\CRUDOperationsTask\\Infrastructure\\ApplicationInfrastructure.csproj",
       "packagesPath": "C:\\Users\\ezzat\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Projects\\CRUDOperationsTask\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ezzat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3558,8 +3558,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj": {
-              "projectPath": "D:\\Projects\\GoogleCalenderTask\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj"
+            "D:\\Projects\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj": {
+              "projectPath": "D:\\Projects\\CRUDOperationsTask\\Domain\\ApplicationCore.csproj"
             }
           }
         }

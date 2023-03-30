@@ -48,7 +48,13 @@ namespace ApplicationInfrastructure.Repository
         {
             Employee employee = new();
             employee = _emp.GetByID(EmployeeId);
-            employee = emp;
+            employee.BirthDate = emp.BirthDate;
+            employee.HiringDate = emp.HiringDate;
+            employee.JobDescription = emp.JobDescription;
+            employee.EmployeeName = emp.EmployeeName;
+            employee.Salary = emp.Salary;
+            employee.JobTitle = emp.JobTitle;
+            employee.IsActive = employee.IsActive;
             _emp.update(employee);
             return _emp.save();
         }
