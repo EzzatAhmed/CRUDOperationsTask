@@ -1,0 +1,17 @@
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\bin\Debug\net6.0\ApplicationInfrastructure.deps.json
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\bin\Debug\net6.0\ApplicationInfrastructure.dll
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\bin\Debug\net6.0\ApplicationInfrastructure.pdb
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\bin\Debug\net6.0\ApplicationCore.dll
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\bin\Debug\net6.0\ApplicationCore.pdb
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.csproj.AssemblyReference.cache
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.AssemblyInfoInputs.cache
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.AssemblyInfo.cs
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.csproj.CopyComplete
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.dll
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\refint\ApplicationInfrastructure.dll
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.pdb
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ref\ApplicationInfrastructure.dll
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\bin\Debug\net6.0\ApplicationInfrastructure.runtimeconfig.json
+D:\Projects\GoogleCalenderTask\CRUDOperationsTask\Infrastructure\obj\Debug\net6.0\ApplicationInfrastructure.genruntimeconfig.cache
