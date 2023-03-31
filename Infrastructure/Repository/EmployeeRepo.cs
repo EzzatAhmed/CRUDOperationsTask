@@ -54,7 +54,6 @@ namespace ApplicationInfrastructure.Repository
             employee.EmployeeName = emp.EmployeeName;
             employee.Salary = emp.Salary;
             employee.JobTitle = emp.JobTitle;
-            employee.IsActive = employee.IsActive;
             _emp.update(employee);
             return _emp.save();
         }

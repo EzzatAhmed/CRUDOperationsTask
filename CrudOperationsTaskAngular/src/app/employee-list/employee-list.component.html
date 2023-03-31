@@ -1,0 +1,47 @@
+<header>
+    <div class="collapse bg-dark" id="navbarHeader">
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <h1 class="navbar-brand d-flex align-items-center">
+          <strong>CRUD Operation Task</strong>
+        </h1>
+      </div>
+    </div>
+  </header>
+
+<div class="container mt-11">
+<h2>Employees List</h2>
+<a routerLink="/addemployee">
+Add Employee
+</a>
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th>ID</th>
+    <th>Employee Name</th>
+    <th>Job Title</th>
+    <th>Job Description</th>
+    <th>Hiring Date</th>
+    <th>Birth Date</th>
+    <th>salary</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let emp of employees">
+    <td>{{emp.employeeId}}</td>
+    <td>{{emp.employeeName}}</td>
+    <td>{{emp.jobTitle}}</td>
+    <td>{{emp.jobDescription}}</td>
+    <td>{{emp.hiringDate}}</td>
+    <td>{{emp.birthDate}}</td>
+    <td>{{emp.salary}}</td>
+    <td><button class="btn btn-primary" (click)="redirecttoEditEmployee(emp.employeeId)">Edit</button></td>
+    <td><button class="btn btn-danger" (click)="deleteemp(emp.employeeId)">Delete</button></td>
+  </tr>
+</tbody>
+</table>
+</div>

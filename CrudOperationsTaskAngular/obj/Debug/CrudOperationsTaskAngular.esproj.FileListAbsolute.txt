@@ -1,2 +1,4 @@
 D:\Projects\GoogleCalenderTask\CRUDOperationsTask\CrudOperationsTaskAngular\obj\Debug\CrudOperationsTaskAngular.esproj.SuggestedBindingRedirects.cache
 D:\Projects\GoogleCalenderTask\CRUDOperationsTask\CrudOperationsTaskAngular\obj\Debug\CrudOperationsTaskAngular.esproj.CoreCompileInputs.cache
+D:\Projects\CRUDOperationsTask\CrudOperationsTaskAngular\obj\Debug\CrudOperationsTaskAngular.esproj.SuggestedBindingRedirects.cache
+D:\Projects\CRUDOperationsTask\CrudOperationsTaskAngular\obj\Debug\CrudOperationsTaskAngular.esproj.CoreCompileInputs.cache

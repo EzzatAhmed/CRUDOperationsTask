@@ -36,7 +36,6 @@ namespace Services.BusinessConcrete
                 emp.HiringDate = employee.HiringDate;
                 emp.BirthDate   = employee.BirthDate;
                 emp.JobDescription = employee.JobDescription;
-                emp.IsActive = employee.IsActive;
                 emp.JobTitle = employee.JobTitle;
             }
             return emp;
@@ -51,7 +50,6 @@ namespace Services.BusinessConcrete
             employee.HiringDate = newEmployee.HiringDate;
             employee.BirthDate = newEmployee.BirthDate;
             employee.JobDescription = newEmployee.JobDescription;
-            employee.IsActive = newEmployee.IsActive;
             employee.JobTitle = newEmployee.JobTitle;
             employee = _employeeRepo.InsertNewEmployee(employee);
             if (employee != null)
@@ -62,7 +60,6 @@ namespace Services.BusinessConcrete
                 emp.Salary= employee.Salary;
                 emp.EmployeeName = employee.EmployeeName;
                 emp.EmployeeId = employee.Id;
-                emp.IsActive= employee.IsActive;
             }
             return emp;
         }
@@ -76,7 +73,6 @@ namespace Services.BusinessConcrete
             employee.HiringDate = newEmployee.HiringDate;
             employee.BirthDate = newEmployee.BirthDate;
             employee.JobDescription = newEmployee.JobDescription;
-            employee.IsActive = newEmployee.IsActive;
             employee.JobTitle = newEmployee.JobTitle;
             if (_employeeRepo.UpdateEmployeeData(EmployeeId, employee))
             {
@@ -100,7 +96,6 @@ namespace Services.BusinessConcrete
                 employeeVM.BirthDate = employee.BirthDate;
                 employeeVM.HiringDate= employee.HiringDate;
                 employeeVM.JobDescription = employee.JobDescription;
-                employeeVM.IsActive = employee.IsActive;
                 employeeVM.JobTitle = employee.JobTitle;
                 employeeVMs.Add(employeeVM);
             }

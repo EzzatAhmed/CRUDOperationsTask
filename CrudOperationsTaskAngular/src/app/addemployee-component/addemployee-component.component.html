@@ -1,0 +1,125 @@
+<form [formGroup]="employeeform" (ngSubmit)="addnewEmp(employeeform)">
+  <section class="vh-100" style="background-color: #2779e2;">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-9">
+  
+          <h1 class="text-white mb-4">Add new Employee</h1>
+  
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body">
+  
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Full name</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+                  
+                  <input type="text" class="form-control form-control-lg" formControlName="employeeName"/>
+                <span class="text-danger"  *ngIf="employeeform.get('employeeName')?.touched && employeeform.get('employeeName')?.errors">
+                  * Required
+                </span>
+                </div>
+              </div>
+  
+              <hr class="mx-n3">
+  
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Job Title</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+                  
+                  <input type="text" class="form-control form-control-lg" formControlName="jobTitle"/>
+                <span class="text-danger" *ngIf="employeeform.get('jobTitle')?.touched && employeeform.get('jobTitle')?.errors">
+                  * Required
+                </span>
+                </div>
+              </div>
+              <hr class="mx-n3">
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Job Description</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+                  
+                  <input type="text" class="form-control form-control-lg" formControlName="jobDescription"/>
+                <span class="text-danger" *ngIf="employeeform.get('jobDescription')?.touched && employeeform.get('jobDescription')?.errors">
+                  * Required
+                </span>
+                </div>
+              </div>
+
+
+              <hr class="mx-n3">
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Hiring Date</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+                  
+                  <input type="date" class="form-control form-control-lg" formControlName="hiringDate"/>
+                <span class="text-danger" *ngIf="employeeform.get('hiringDate')?.touched && employeeform.get('hiringDate')?.errors">
+                  * Required
+                </span>
+                </div>
+              </div>
+
+
+              <hr class="mx-n3">
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">Birth Date</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+                  
+                  <input type="date" class="form-control form-control-lg" formControlName="birthDate"/>
+                <span class="text-danger" *ngIf="employeeform.get('birthDate')?.touched && employeeform.get('birthDate')?.errors">
+                  * Required
+                </span>
+                </div>
+              </div>
+
+              <hr class="mx-n3">
+              <div class="row align-items-center pt-4 pb-3">
+                <div class="col-md-3 ps-5">
+  
+                  <h6 class="mb-0">salary</h6>
+  
+                </div>
+                <div class="col-md-9 pe-5">
+                  
+                  <input type="number" class="form-control form-control-lg" formControlName="salary"/>
+                <span class="text-danger" *ngIf="employeeform.get('salary')?.touched && employeeform.get('salary')?.errors">
+                  * Required
+                </span>
+                </div>
+              </div>
+
+
+              <hr class="mx-n3">
+
+              <div class="px-5 py-4" *ngIf="!isEditMode">
+                <button type="submit" class="btn btn-primary btn-lg" [disabled]="employeeform.invalid">Add</button>
+              </div>
+              <div class="px-5 py-4"*ngIf="isEditMode">
+              <button type = "button" class="btn btn-primary btn-lg" [disabled]="employeeform.invalid"(click)="updateEmp(employeeform)">Save Updated</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+</form>

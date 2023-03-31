@@ -39,9 +39,6 @@ namespace ApplicationInfrastructure.Migrations
                     b.Property<DateTime?>("HiringDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
                     b.Property<string>("JobDescription")
                         .HasColumnType("nvarchar(max)");
 

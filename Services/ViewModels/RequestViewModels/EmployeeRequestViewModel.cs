@@ -11,7 +11,6 @@ namespace Services.ViewModels.RequestViewModels
         public string? EmployeeName { get; set; }
         public string? JobTitle { get; set; }
         public string? JobDescription { get; set; }
-        public bool IsActive { get; set; }
         public DateTime? HiringDate { get; set; }
         public DateTime? BirthDate { get; set; }
         public decimal? Salary { get; set; }

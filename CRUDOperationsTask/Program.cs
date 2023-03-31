@@ -37,7 +37,10 @@ else if (app.Environment.IsProduction())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors(x => x
+           .AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader());
 app.UseAuthorization();
 
 app.MapControllers();

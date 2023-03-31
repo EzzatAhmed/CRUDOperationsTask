@@ -17,7 +17,7 @@ namespace CRUDOperationsTask.Controllers
         {
             _employeeService = employeeService;
         }
-        [HttpGet]
+        [HttpGet("GetEmployeeById")]
         public IActionResult GetEmployeeById(int? id)
         {
             try {
@@ -31,7 +31,7 @@ namespace CRUDOperationsTask.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpPost]
+        [HttpPost("InsertNewEmployee")]
         public IActionResult InsertNewEmployee([FromBody]EmployeeRequestViewModel employee)
         {
             try {
@@ -42,7 +42,7 @@ namespace CRUDOperationsTask.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpPut]
+        [HttpPut("UpdateEmployee")]
         public IActionResult UpdateEmployee(int EmployeeId,[FromBody] EmployeeRequestViewModel employee)
         {
             try {
@@ -53,7 +53,7 @@ namespace CRUDOperationsTask.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpDelete]
+        [HttpDelete("DeleteEmployeeById")]
         public IActionResult DeleteEmployeeById(int id)
         {
             try
